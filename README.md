@@ -1,6 +1,6 @@
 # Overview of the R analysis scripts in this folder
 
-This project examines dipole-like thermocline structures in the German Bight using ScanFish data, gridded environmental products, and R-based analysis. It investigates how these features vary with transect scale, seasonal context, and wind forcing, and compares them against natural variability to better understand their significance in oceanography.
+This project examines dipole-like thermocline structures in the German Bight using gridded environmental data and R-based analysis. It investigates how these features vary with transect scale, seasonal context, and wind forcing, and compares them against natural variability to better understand their significance in oceanography.
 
 ## Script overview
 
