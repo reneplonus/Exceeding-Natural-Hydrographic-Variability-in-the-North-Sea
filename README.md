@@ -31,6 +31,14 @@ including figures such as diHE466\_\*.rda
 This script is focused on the detailed inspection of selected dipole
 examples.
 
+### dpChlA.R
+
+Similar to dipol_var.R but using chlorophyll a fluorescence as background instead of temperature.
+
+### dpSalinity.R
+
+Similar to dipol_var.R but using salinity as background instead of temperature.
+
 ### era5.R
 
 Purpose: prepares ERA5 wind data from NetCDF files.
@@ -103,6 +111,14 @@ creates probability and reference-area plots for the interpretation of
 dipole events
 
 This is one of the central visualization scripts in the project.
+
+### explainT20.R
+
+Purpose: creates an explanatory figure for the thermocline variability index used to identify dipole-like structures. It illustrates how a local, moving-window standard deviation of thermocline depth is compared with the 80th-percentile threshold and visualizes the result together with temperature and stratification along a ScanFish section.
+
+What it does: loads ScanFish data from the data folder - builds plots showing transect sections - calculates background varaibility
+
+Typical output: stores figure as explainT20.rda
 
 ### wind_plot.R
 
